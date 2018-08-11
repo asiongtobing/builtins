@@ -19,9 +19,9 @@ class DeprecatedBundleWarning(DeprecationWarning):
 
 
 def where():
-    f = os.path.dirname(__file__)
+    f = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
 
-    return os.path.join(f, 'cacert.pem')
+    return os.path.join(f, 'certifi_cacert.pem')
 
 
 def old_where():

@@ -29,9 +29,6 @@ from pip._vendor.six.moves import input
 from pip._vendor.six import PY2
 from pip._vendor.retrying import retry
 
-sys.getfilesystemencoding = lambda: 'utf-8'
-sys.getdefaultencoding = lambda: 'utf-8'
-
 if PY2:
     from io import BytesIO as StringIO
 else:
