@@ -1,3 +1,8 @@
-private2 for v2.0.0
+This repo includes the pip and other extra builtins libraries
+
 It contains the pip toolkit, androidhelper, bottle libraries and so on.
+
+The directories builtins and piplib console should be extract to the intenal directory:
+lib/python2.7/site-packages
+
 
